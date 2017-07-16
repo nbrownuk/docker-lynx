@@ -6,5 +6,4 @@ RUN apt-get update                             && \
         lynx                                   && \
     rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT ["lynx"]
-CMD ["-h"]]
+CMD ["lynx", "-h"]
